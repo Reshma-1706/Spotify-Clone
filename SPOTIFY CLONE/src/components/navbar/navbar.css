@@ -1,0 +1,129 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000; /* Spotify black */
+    padding: 16px 32px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Left Side */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-left input {
+    background-color: #222;
+    border: 1px solid #444;
+    padding: 10px 18px;
+    border-radius: 20px;
+    color: #fff;
+    width: 280px;
+    font-size: 16px;
+    transition: border 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .navbar-left input:focus {
+    outline: none;
+    border-color: #1db954;
+    background-color: #111;
+  }
+  
+  /* Right Side */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    color: #1db954; /* Spotify green */
+  }
+  
+  .divider {
+    height: 20px;
+    width: 1px;
+    background-color: #555;
+  }
+  
+  .signup-btn,
+  .login-btn {
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .signup-btn:hover,
+  .login-btn:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.03);
+  }
+  
+  /* Icons */
+  .icon {
+    font-size: 22px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #1db954;
+  }
+  
+  /* Spotify Icon */
+  .spotify-icon {
+    font-size: 28px;
+    color: #1db954;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .spotify-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-left,
+    .navbar-right {
+      width: 100%;
+      justify-content: space-between;
+      margin-top: 8px;
+    }
+  
+    .navbar-left input {
+      width: 180px;
+    }
+  }
+  
