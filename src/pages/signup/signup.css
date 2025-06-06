@@ -1,0 +1,94 @@
+.signupContainer {
+    background-color: #121212;
+    color: white;
+    padding: 40px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .signupContainer h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .signupContainer label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .signupContainer input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .usePhone {
+    display: inline-block;
+    color: #1db954;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .nextBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1db954;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #aaa;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #444;
+  margin: 0 10px;
+}
+
+.divider span {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+  
+  .signupBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .signupBtn:hover {
+    background-color: #1db954;
+    color: black;
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,33 @@
+.footerBannerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #bc2baf, #5f5fd3, #429bff);
+    padding: 20px 40px;
+    color: white;
+    font-family: sans-serif;
+    border-top: 4px solid black;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .footerBannerText {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .footerBannerBtn {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 12px 24px;
+    font-size: 14px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .footerBannerBtn:hover {
+    background-color: #e0e0e0;
+  }
+  
